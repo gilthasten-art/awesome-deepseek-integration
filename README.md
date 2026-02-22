@@ -51,6 +51,11 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td>An open-source system integration AI assistant for the Android platform, supporting almost complete mcp usage and highly compatible with the Android system. The software features both high customization and a low learning threshold, with built-in tools for file operations, searches, automatic clicks, format conversions, and an integrated DeepSeek API webpage.</td>
     </tr>
     <tr>
+        <td><img src="docs/Awesome DeepSeek Integrations.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="docs/synesthetic_flow/README.md">Synesthetic Flow</a></td>
+        <td>A production-oriented blueprint for mapping rhythm, frequency bands, and dynamics to color, reflection, and geometric motion using deterministic stage-based escalation.</td>
+    </tr>
+    <tr>
         <td><img src="docs/OpenXLab/migo/logo.svg" alt="Icon" width="64" height="auto" /></td>
         <td><a href="https://migo.intern-ai.org.cn/">Migo</a></td>
         <td>A free AI innovation accelerator offering intelligent Q&A, in-depth paper comprehension, cutting-edge AI tools, and a personal academic knowledge base. As your exploration partner, Migo helps you discover and realize outstanding ideas!</td>
