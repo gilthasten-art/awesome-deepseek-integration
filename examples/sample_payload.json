@@ -1,0 +1,53 @@
+{
+  "founder": {
+    "name": "Jordan Hale",
+    "background": "12 years building regulated AI platforms across healthcare, fintech, and public sector",
+    "certifications": "CISA, ISO 27001 Lead Implementer",
+    "governance_focus": "policy-as-code, model risk governance, and zero-trust data operations"
+  },
+  "sectors": [
+    {
+      "sector": "Healthcare",
+      "innovation_thesis": "Clinical intelligence copilots with HIPAA-aligned controls",
+      "market_strategy": "Partner-led pilots with regional provider networks",
+      "expected_revenue": 1800000
+    },
+    {
+      "sector": "Financial Services",
+      "innovation_thesis": "AML and compliance automation for mid-market institutions",
+      "market_strategy": "SBA and community bank channel co-selling",
+      "expected_revenue": 2200000
+    },
+    {
+      "sector": "Energy",
+      "innovation_thesis": "Grid resilience analytics using sovereign model infrastructure",
+      "market_strategy": "Enterprise contracts with utility operators",
+      "expected_revenue": 1500000
+    }
+  ],
+  "projections": [
+    {"year": 2026, "revenue": 2500000, "cogs": 550000, "opex": 1150000, "debt_service": 260000},
+    {"year": 2027, "revenue": 3400000, "cogs": 700000, "opex": 1300000, "debt_service": 280000},
+    {"year": 2028, "revenue": 4500000, "cogs": 890000, "opex": 1450000, "debt_service": 300000}
+  ],
+  "risks": [
+    {
+      "category": "Regulatory change",
+      "likelihood": "medium",
+      "impact": "high",
+      "mitigation": "Quarterly control remapping and legal advisory cadence"
+    },
+    {
+      "category": "Model drift",
+      "likelihood": "medium",
+      "impact": "medium",
+      "mitigation": "Continuous monitoring and rollback-safe deployment lanes"
+    },
+    {
+      "category": "Customer concentration",
+      "likelihood": "low",
+      "impact": "medium",
+      "mitigation": "Diversified pipeline targets across three sectors"
+    }
+  ]
+}
