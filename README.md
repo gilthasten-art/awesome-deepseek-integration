@@ -215,6 +215,11 @@ With these functionalities, the AI assistant can summarize key points within an 
         <td> <img src="https://niceprompt.app/favicon.ico" alt="Icon" width="64" height="auto" /> </td> <td> <a href="https://niceprompt.app">Nice Prompt</a></td> <td> <a href="https://niceprompt.app">Nice Prompt</a> Organize, share and use your prompts in your code editor, with Cursor and VSCode。</td>
     </tr>
     <tr>
+        <td> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/audio-technica.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/synesthetic-av-sequencer/README.md">Synesthetic AV Sequencer</a> </td>
+        <td> A DeepSeek prompt blueprint for generating audio-reactive color timelines with explicit rhythm logic, measurable transitions, and section-based escalation. </td>
+    </tr>
+    <tr>
         <td> <img src="https://avatars.githubusercontent.com/u/193405629?s=200&v=4" alt="PHP Client" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/deepseek-php/deepseek-php-client/blob/master/README.md">PHP Client</a> </td>
         <td> Deepseek PHP Client is a robust and community-driven PHP client library for seamless integration with the Deepseek API. </td>
