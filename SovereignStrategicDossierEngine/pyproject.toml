@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sovereign-strategic-dossier-engine"
+version = "0.1.0"
+description = "Compliance-first strategic dossier generation and capital readiness system"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "SovereignStrategicDossierEngine Team" }]
+dependencies = [
+  "python-docx>=1.1.0",
+  "reportlab>=4.0.0",
+]
+
+[project.scripts]
+sovereign-dossier = "sovereign_engine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sovereign_engine*"]

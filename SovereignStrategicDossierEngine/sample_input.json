@@ -1,0 +1,68 @@
+{
+  "founder_profile": {
+    "founder_name": "Alex Mercer",
+    "company_name": "Sovereign Stack Labs",
+    "mission": "Build auditable, secure, and compliant AI infrastructure for regulated industries.",
+    "experience_highlights": [
+      "Designed model governance controls for a healthcare analytics platform",
+      "Led SOC2 and ISO27001 readiness program for AI platform operations",
+      "Implemented LLM security controls and model lifecycle policy automation"
+    ]
+  },
+  "business_strategy": {
+    "sectors": ["Healthcare", "Fintech", "Public Sector"],
+    "core_offerings": [
+      "Compliance-by-design AI architecture",
+      "Model risk governance as a managed service",
+      "Policy-aware agent infrastructure"
+    ],
+    "go_to_market": "Land-and-expand through regulated pilot engagements and advisory partnerships.",
+    "milestones": [
+      "Q2: Launch compliance control plane MVP",
+      "Q3: Sign 3 paid pilot clients",
+      "Q4: Convert 2 pilots to annual contracts"
+    ]
+  },
+  "loan_request": {
+    "requested_amount": 450000,
+    "term_months": 84,
+    "use_of_proceeds": {
+      "product_development": 180000,
+      "compliance_certifications": 70000,
+      "sales_and_marketing": 110000,
+      "working_capital": 90000
+    },
+    "repayment_strategy": "Repay through recurring SaaS contracts and services revenue diversification."
+  },
+  "compliance": {
+    "jurisdictions": ["US", "EU"],
+    "standards": ["SOC2", "ISO27001", "NIST AI RMF"],
+    "policies": [
+      "Model lifecycle governance",
+      "Data retention and minimization",
+      "Incident response and escalation"
+    ],
+    "controls": [
+      "Role-based access and key rotation",
+      "Audit logging and immutable event retention",
+      "Third-party model validation before deployment"
+    ]
+  },
+  "financial_projections": [
+    {"period": "2026-Q1", "revenue": 95000, "cost": 80000, "cashflow": 15000},
+    {"period": "2026-Q2", "revenue": 140000, "cost": 93000, "cashflow": 47000},
+    {"period": "2026-Q3", "revenue": 220000, "cost": 120000, "cashflow": 100000},
+    {"period": "2026-Q4", "revenue": 310000, "cost": 160000, "cashflow": 150000}
+  ],
+  "risk_inputs": {
+    "market_risk": 35,
+    "regulatory_risk": 40,
+    "technology_risk": 30,
+    "execution_risk": 45,
+    "mitigations": [
+      "Quarterly control testing and board-level risk review",
+      "Dual-model fallback architecture",
+      "Contractual compliance SLAs with customers"
+    ]
+  }
+}
