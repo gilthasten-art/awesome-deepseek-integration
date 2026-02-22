@@ -4,6 +4,7 @@ from pathlib import Path
 
 from docx import Document
 from reportlab.lib.pagesizes import LETTER
+from reportlab.lib.utils import simpleSplit
 from reportlab.pdfgen import canvas
 
 
@@ -23,13 +24,16 @@ class DocumentBuilder:
         y -= 28
 
         pdf.setFont("Helvetica", 11)
+        text_width = width - 120
         for line in body.splitlines():
-            if y < 50:
-                pdf.showPage()
-                y = height - 50
-                pdf.setFont("Helvetica", 11)
-            pdf.drawString(60, y, line[:120])
-            y -= 16
+            wrapped_lines = simpleSplit(line or "", "Helvetica", 11, text_width) or [""]
+            for wrapped_line in wrapped_lines:
+                if y < 50:
+                    pdf.showPage()
+                    y = height - 50
+                    pdf.setFont("Helvetica", 11)
+                pdf.drawString(60, y, wrapped_line)
+                y -= 16
 
         pdf.save()
         return path
